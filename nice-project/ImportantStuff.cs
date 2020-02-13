@@ -17,13 +17,13 @@ namespace NiceProject
         private int CalculateSumOf(IEnumerable<int> allNumbers)
         {
 
-            var sum = 0;
-            foreach (var number in allNumbers)
-            {
-                sum += number;
-            }
+          //  var sum = 0;
+            //foreach (var number in allNumbers)
+           // {
+            //    sum += number;
+            //}
 
-            return sum;
+           // return sum;
 
             return allNumbers.Sum();
 
